@@ -1,0 +1,111 @@
+body	{
+	background-color: #000000;
+}
+
+nav a	{
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	background: #0004CC;
+	padding: 0.25em;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.SiteNavigation	{
+	text-align: center;
+	font-family: monospace;
+}
+	
+
+a:hover	{
+	background: #B3B3B3;
+	color: #0006CC;
+}
+
+a:focus {
+	background: #B3B3B3;
+	color: #0006CC;
+}
+
+a:active {
+	border: 3px solid #000000;
+}
+
+
+h1, h2, h3	{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: monospace;
+}
+
+footer {
+	text-align: center;
+	font-family: monospace;
+}
+
+p, h5, #GTVMEP	{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: monospace;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#face	{
+		position: relative;
+		bottom: 30px;
+		display: inline-block;
+		width: 6.250em;
+		padding-top: 50px;
+		text-align: center;
+		margin: 20px;
+		margin-right: 45px;
+		transition: all .2s linear 0;
+		animation-name: moveface;
+		animation-duration: 8s;
+		animation-iteration-count: infinite;
+		
+}
+
+
+@keyframes	moveface{ 
+		0%		{left:20%;}
+		50%		{left:70%;}
+		100%	{left:20%;}
+		
+}
+		
+section	{
+	color: white;
+	text-align: center;
+	font-family: monospace;
+}
+
+summary	{
+	margin-left: 45%;
+	margin-right: 45%;
+	font-family: monospace;
+}
+
+@media screen and (max-width:700px)	{
+iframe	{
+	width: 70%;
+}
+}
+
+#wofep	{
+	float: left;
+	width: 30%;
+	margin-left: 20vw;
+	padding: 1%;
+}
+
+#album1	{
+	float: right;
+	width: 20vw;
+	margin-right: 25%;
+	margin-top: 10px;
+}
+

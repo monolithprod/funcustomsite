@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bear</title>
+<style>
+
+
+</style>
+</head>
+
+
+
+<body>
+
+<h3 style="text-align:center">William Bazire</h3>
+
+<div class="container">
+	<dic class="mySlides">
+		<div class="numbertext">1 / 6</div>
+		<img src="IMG_3628.JPG" style="width:100%">
+	</div>
+
+<div class="mySlides">
+		<div class="numbertext">2 / 6</div>
+		<img src="IMG_0499.JPG" style="width:100%">
+	</div>
+
+<div class="mySlides">
+		<div class="numbertext">3 / 6</div>
+		<img src="IMG_4486.JPG" style="width:100%">
+	</div>
+
+<div class="mySlides">
+		<div class="numbertext">4 / 6</div>
+		<img src="IMG_7666.JPG" style="width:100%">
+		</div>
+
+<div class="mySlides">
+		<div class="numbertext">5 / 6</div>
+		<img src="IMG_4559.JPG" style="width:100%">
+	</div>
+
+<div class="mySlides">
+		<div class="numbertext">6 / 6</div>
+		<img src="IMG_4495.JPG" style="width:100%">
+	</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div clas="caption-container">
+	<p id="caption"></p>
+</div>
+
+<div class="row">
+	<div class="column">
+	<img class="demo cursor" src="IMG_3628.JPG" alt="Hollywood Era William Bazire" style="width:100%" onclick="currentSlide(1)">
+	</div>
+
+	<div class="column">
+	<img class="demo cursor" src="IMG_0499.JPG" alt="Loreal Era William Bazire" style="width:100%" onclick="currentSlide(2)">
+	</div>
+
+<div class="column">
+	<img class="demo cursor" src="IMG_4486.JPG" alt="Golden Era William Bazire" style="width:100%" onclick="currentSlide(3)">
+	</div>
+
+<div class="column">
+	<img class="demo cursor" src="IMG_7666.JPG" alt="Winchester Era William Bazire" style="width:100%" onclick="currentSlide(4)">
+	</div>
+
+<div class="column">
+	<img class="demo cursor" src="IMG_4559.JPG" alt="Golden Era William Bazire" style="width:100%" onclick="currentSlide(5)>
+	</div>
+
+<div class="column">
+	<img class="demo cursor" src="IMG_4495.JPG" alt="Golden Era William Bazire with his adonis Mathew Laws" style="width:100%" onclick="currentSlide(6)">
+	</div>
+</div>
+
+
+</body>
+
+
+<footer>
+</div>
+<button type="button" onclick="alert('Great, now Wintersun delays their new release for another 12 months.')">Click Here!</button>
+<div class="actual bottom">
+<small><aside>		.</aside>
+<a href="aboutme.html">About Me</a>
+<a href="mailto:pitcairn1991@gmail.com?subject=Martin%20Fanclub&body=Im%20a%20keen%20Pitcairn%20also%20xxx">Email me</a>
+
+</div>
+<body id="top">
+<a href="#top">Back to top</a>
+</body>
+</footer>
+</html>   

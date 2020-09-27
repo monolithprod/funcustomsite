@@ -1,0 +1,95 @@
+body	{
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+nav a	{
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	background: #0004CC;
+	padding: 4px;
+	text-decoration: none;
+	margin: 0 auto;
+	font-family: monospace;
+}
+
+.SiteNavigation	{
+	text-align: center;
+	font-family: monospace;
+}
+	
+
+a:hover	{
+	background: #B3B3B3;
+	color: #0006CC;
+}
+
+a:focus {
+	background: #B3B3B3;
+	color: #0006CC;
+}
+
+a:active {
+	border: 3px solid #000000;
+}
+
+
+h2, h3	{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: monospace;
+}
+
+footer {
+	text-align: center;
+}
+
+p	{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-family: monospace;
+}
+
+label	{
+	text-align: center;
+	display: inline;
+	padding-left: 10px;
+	font-family: monospace;
+}
+
+form	{
+		text-align: left;
+		margin-left: 100px;
+		display: inline-block;
+		float: left;
+		font-family: monospace;
+}
+
+#kkristen	{
+		position: relative;
+		display: block;
+		float: bottom right;
+		bottom: 30px;
+		height: 200px;
+		padding-top: 50px;
+		margin: 2px;
+		margin-left: 90%;
+		transition: all .2s linear 0;
+		animation-name: movekristen;
+		animation-duration: 180s;
+		animation-iteration-count: infinite;
+}
+
+@keyframes movekristen	{
+		0%		{right:20%;}
+		50%		{right:70%;}
+		100%	{right:100%;}
+}

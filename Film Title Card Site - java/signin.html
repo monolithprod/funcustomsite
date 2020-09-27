@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>		</title>
+	<link rel="stylesheet" type="text/css" href="kristenstyle.css">
+
+
+
+</head>
+
+<script src="javaform.js">
+</script>
+
+<body>
+<div class="SiteNavigation">
+<nav>
+<a href="mainpage.html">Title Cards</a>
+<a href="dadspage.html">Dad's Page</a>
+<a href="kristentext.html">Kristen's Political Views</a>
+<a href="anodetowill.html">An Ode to Will</a>
+<a href="signin.html">Sign-In</a>
+<a href="shortfilms.html"> Short Films &amp; Music Videos</a>
+<a href="../wof.html"> Wizaard of Faeces</a>
+</nav>
+</div>
+<h2>Sign in to the Portal of Pitcairn</h2>
+<p>Good day, if you would like to create an account and 'sign-in' to the Portal of Pitcairn so that you can log in at a later date,
+please go ahead and fill out the forms below. Whilst an account does nothing at the moment, in the near future it will provide you
+with a customised version of the website, one personal to you, that will save your progress and unlock unique features designed around you,
+my friend.</p>
+<br>
+<br>
+
+
+
+
+<form>
+<label for='name'>Name</label>
+<input type='text' id= 'username' name = 'name' required> <br/>
+
+<label>Email: <input type='email' id="email_addr" name = 'email1' value = "handle@provider.com" required></label><br/>
+<label>Repeat Email:
+<input type="email" id="email_repeat" name="email2" required onchange="Check()"><br>
+</label>
+
+<label for='birth'>Birth</label>
+<input type='date' id ='birth' value = 'birth' required><br/>
+
+<label for='password'>Password</label>
+<input type='password' id='password' password = 'password' pattern"[0-9]{10} required><br/>
+
+
+<label><input type='radio' name='gender' value = 'male'>Male</label><br/>
+<label><input type='radio' name='gender' value='female'>Female</label><br/>
+<label><input type='radio' name='gender' value='other'>Other</label><br/>
+<label><input type='radio' name='gender' value='prefer not to say'>Prefer not to say</label><br/>
+<input type ='submit' value = "Sign-In!" onclick = "hello();">
+</form>
+
+<div id="pichere">
+<img src="kristen.png" Id="kkristen" height="25em;">
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>    
